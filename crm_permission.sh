@@ -11,7 +11,6 @@ echo "# **Except config.php config_override.php sugarcrm.log need to be 664"
 
 chmod 664 ${CRM_ROOT}"config.php"
 chmod 664 ${CRM_ROOT}"config_override.php" 
-chmod 664 ${CRM_ROOT}"*.log"
 
 echo "# **The four Directories (cache custom data modules) below need to be 775"
  
