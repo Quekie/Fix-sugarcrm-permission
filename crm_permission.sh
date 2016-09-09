@@ -1,6 +1,9 @@
 
 CRM_ROOT="/home/asi/crm.asiaction.com/"
 
+echo "# **change owner of files and folders"
+chown -R daemon:daemon ${CRM_ROOT}
+
 echo "# **FIND ALL DIRECTORIES AND CHANGE THEIR MOD TO 755"
 find -P ${CRM_ROOT} -type d -exec chmod 755  {} \;
 
